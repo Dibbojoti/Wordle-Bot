@@ -1,5 +1,5 @@
 # Wordle-Bot
-It solves wordle game from The New Yorks Time
+
 This code is for Wordle  where the user has to guess a five-letter word. The user is given six chances to guess the word, and for each guess, the user is given feedback in the form of "g" for correct letters in the correct position, "y" for correct letters in the wrong position, and "w" for incorrect letters. Based on this feedback, the user has to make a new guess.
 
 The code first tries to open the file wordlist.txt and read each line from it, appending each line to the guess_list list. If the file is not found or any other I/O error occurs, it will print an error message.
